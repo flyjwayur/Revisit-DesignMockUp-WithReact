@@ -1,0 +1,1 @@
+It's about designing a website mockup in HTML and CSS.

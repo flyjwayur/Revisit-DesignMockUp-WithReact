@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%
+}
+
+.header-background {
+    background-color: #414141;
+}
+
+.header-container {
+    background-color: #414141;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* centering container*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+.right-header {
+    padding: 0px;
+    border: 1px solid white;
+    align-self: center;
+}
+
+.left-header {
+    padding: 0px;
+    border: 1px solid white;
+}
+
+img {
+    width: 35vw;
+    height: 35vh;
+}
+
+.right-header p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1px auto;
+    /*text-align: left;*/
+    font-style: italic;
+    letter-spacing: 0.5px;
+    transform: scaleY(1.2);
+}
+
+.right-header p span {
+    font-weight: lighter;
+    color: #B5B5B5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    padding-left: 0.3em;
+    font-style: normal;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B5B5B5;
+    font-weight: lighter;
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button*/
+
+.learn-btn {
+    background: #4788C8;
+    color: #FFFFFF;
+    padding: 1em 2em;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.learn-btn:hover {
+    background: #FFFFFF;
+    color: #4788C8;
+}
+
+/*speech-bubble*/
+
+.speech-bubble {
+    position: relative;
+    background: #4788C8;
+    margin: 0 10%;
+    width: 80%;
+    padding: 0.3em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-top-color: #4788C8;
+    border-left: 0;
+}
+
+.start-btn {
+    background: #E4E4EE;
+    color: #414141;
+    padding: 1em 2em;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    bottom: 0.8em;
+    /* Need to make it center more precisely*/
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.speech-bubble-text {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 200;
+    /* Need to make lighter weight*/
+    margin-left: 1em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.speech-bubble-text span {
+    color: white;
+    font-weight: 600;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.topic-container {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* centering container*/
+    width: 80%;
+    margin: 4em auto;
+}
+
+.topic-container div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black; 
+    align-items: center;  
+}
+
+.topic-title{
+    color: #4F4D4E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transform: scaleY(1.2);
+    padding: 1em;
+    width: 100%;
+}
+
+.topic-title span{
+    font-weight: normal;
+}
+
+.read-btn{
+    background: #4788C8;
+    color: #FFFFFF;
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    border-radius: 10%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.circle-bg-for-icon{
+    background: #4F4D4E;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.fas{
+    font-size: 2em;
+    padding: 1.3rem;
+    color: white;
+}
