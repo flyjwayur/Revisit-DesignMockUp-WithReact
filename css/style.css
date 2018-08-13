@@ -145,7 +145,15 @@ h4 {
     font-style: italic;
 }
 
+/* Content container */
+#content-wrapper{
+    margin: 0 auto;
+    width: 80%;
+    background: orange;
+}
+
 /* Topic */
+
 .topic-container {
     background-color: #EFEFEF;
     display: flex;
@@ -153,25 +161,25 @@ h4 {
     align-items: center;
     justify-content: space-between;
     /* centering container*/
-    width: 80%;
     margin: 4rem auto;
     position: relative;
 }
 
-.topic-container div{
+.topic-container div {
     flex: 1;
-    border: 1px solid black; 
-    text-align: center; 
-    position : relative; 
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
     padding: 1rem;
 }
 
 /* effects after hovering the topic column */
-.topic-container div:hover{
+
+.topic-container div:hover {
     background: #FFFFFF;
 }
 
-.topic-container-column:hover::after{
+.topic-container-column:hover::after {
     content: '';
     position: absolute;
     top: 100%;
@@ -183,19 +191,19 @@ h4 {
     border-left: 0;
 }
 
-.topic-container div:hover .read-btn{
+.topic-container div:hover .read-btn {
     visibility: hidden;
 }
 
-.topic-container div:hover .circle-bg-for-icon{
+.topic-container div:hover .circle-bg-for-icon {
     background: #4788C8;
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    margin : auto;
+    margin: auto;
 }
 
-.topic-title{
+.topic-title {
     color: #4F4D4E;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -207,11 +215,11 @@ h4 {
     width: 100%;
 }
 
-.topic-title span{
+.topic-title span {
     font-weight: normal;
 }
 
-.read-btn{
+.read-btn {
     background: #4788C8;
     color: #FFFFFF;
     padding: 1em 1.5em;
@@ -222,16 +230,61 @@ h4 {
     font-weight: 400;
 }
 
-.circle-bg-for-icon{
+.circle-bg-for-icon {
     background: #4F4D4E;
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    margin : auto;
+    margin: auto;
 }
 
-.fas{
+.fas {
     font-size: 2rem;
     padding: 0.3rem;
     color: white;
+}
+
+/* Recent work section */
+.recent-work-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1.0em;
+    justify-content: space-around; 
+    overflow: auto;
+    min-width: 0;
+    min-height: 0;
+}
+
+.work1{
+    grid-column: 1/2;
+    background: #FFFFFF;
+}
+
+.work2{
+    grid-column: 2/3;
+    background: #FFFFFF;
+}
+
+.work3{
+    grid-column: 3/4;
+    background: #FFFFFF;
+}
+
+.work1 img{
+    max-width: 100%;
+    margin: 0px;
+}
+
+.work2 img{
+    max-width: 100%;
+}
+
+.work3 img{
+    max-width: 100%;
+}
+
+.blog-title{
+    font-family: Arial, Helvetica, sans-serif;
 }
