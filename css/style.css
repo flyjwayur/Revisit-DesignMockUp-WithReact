@@ -259,6 +259,19 @@ h4 {
 
 .recent-work-container div{
     background: #FFFFFF;
+    position: relative;
+}
+
+.recent-work-container div::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-top-color: #FFFFFF;
+    border-left: 0;
 }
 
 .work1 img {
