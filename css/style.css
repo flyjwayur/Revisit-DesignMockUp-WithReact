@@ -81,6 +81,7 @@ h4 {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 500;
+    box-shadow: 1rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 .learn-btn:hover {
