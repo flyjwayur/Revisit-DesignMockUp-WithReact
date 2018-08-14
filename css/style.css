@@ -181,7 +181,7 @@ h4 {
 
 .topic-container div:hover {
     background: #FFFFFF;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 .topic-container-column:hover::after {
@@ -264,7 +264,7 @@ h4 {
 .recent-work-container div {
     background: #FFFFFF;
     position: relative;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 .recent-work-container div::after {
@@ -404,7 +404,7 @@ h4 {
     background: #FFFFFF;
     position: relative;
     margin: 3rem auto;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 #testimonials-content2 {
@@ -413,7 +413,7 @@ h4 {
     background: #FFFFFF;
     position: relative;
     margin: 3rem auto;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 #testimonials-content3 {
@@ -422,7 +422,7 @@ h4 {
     background: #FFFFFF;
     position: relative;
     margin: 3rem auto;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 #testimonials-content4 {
@@ -431,7 +431,7 @@ h4 {
     background: #FFFFFF;
     position: relative;
     margin: 3rem auto;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 .testi-title {
@@ -489,7 +489,7 @@ h4 {
 
 .tabs li {
     display: inline;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 .tabs li a {
@@ -501,7 +501,7 @@ h4 {
     padding: 1rem 2rem;
     left: 0;
     text-decoration: none;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 .tabs li a:hover {
@@ -549,7 +549,7 @@ h4 {
 #box-three:target {
     z-index: 1;
     background: #FFFFFF;
-    box-shadow: 0.5rem 0px 3rem rgba(0,0,0,0.19);
+    box-shadow: 0.5rem 0px 3rem rgba(0, 0, 0, 0.19);
 }
 
 #box-wrap div p strong {
@@ -565,6 +565,66 @@ h4 {
     border-radius: 10%;
     cursor: pointer;
     text-transform: uppercase;
-    font-weight: 400; 
+    font-weight: 400;
     float: right;
+}
+
+/* Get in touch section */
+
+.get-in-touch-bubble-speech {
+    position: relative;
+    background: #4788C8;
+    margin: auto;
+    width: 100%;
+    padding: 0.3rem;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.get-in-touch-bubble-speech::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-top-color: #4788C8;
+    border-left: 0;
+}
+
+.get-in-touch-bubble-speech-text {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+}
+
+.get-in-touch-bubble-speech-text span {
+    color: white;
+    font-weight: 600;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.contact-btn {
+    background: #E4E4EE;
+    color: #414141;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    bottom: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 2rem;
 }
