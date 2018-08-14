@@ -722,7 +722,7 @@ h4 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 10%;
-    padding-right: 0git;
+    justify-content: space-between;
     align-content: center;
     color: #8D8D8D;
     font-family:  Arial, Helvetica, sans-serif;
@@ -731,7 +731,7 @@ h4 {
 }
 
 .footer-text{
-    flex: 3;
+    flex: 4;
 }
 
 .footer-icons{
@@ -739,8 +739,14 @@ h4 {
 }
 
 .footer-up{
-    flex: 1;
     padding-right: 0;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem; 
+}
+
+.fa-arrow-circle-up{
+    color: #222222;
 }
 
 .fab{
