@@ -628,3 +628,71 @@ h4 {
     text-transform: uppercase;
     margin-right: 2rem;
 }
+
+/* footer */
+
+.footer-background {
+    background-color: #414141;
+}
+
+.footer-container {
+    background-color: #414141;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap*/
+    align-items: flex-start;
+    /* centering container*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container div {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.footer-content-title {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer-content {
+    margin-top: 1rem;
+    color: #8D8D8D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content span {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer-content-text-and-line {
+    border-bottom: 1px solid #222222;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: #8D8D8D;
+}
+
+.footer-content-text-and-line:hover{
+    color: #4788C8;
+}
+
+.flickr-item-container {
+    margin-top : 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(min-content, 1fr));
+    grid-template-rows: repeat(2, minmax(min-content, 1fr));
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+}
+
+.item{
+    background: #222222;
+    width: 4rem;
+    height: 4rem;
+}
