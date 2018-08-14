@@ -27,13 +27,11 @@ body {
 
 .right-header {
     padding: 0px;
-    border: 1px solid white;
     align-self: center;
 }
 
 .left-header {
     padding: 0px;
-    border: 1px solid white;
 }
 
 img {
@@ -171,7 +169,6 @@ h4 {
 
 .topic-container div {
     flex: 1;
-    border: 1px solid black;
     text-align: center;
     position: relative;
     padding: 1rem;
@@ -723,7 +720,7 @@ h4 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 10%;
-    padding-right: 0;
+    padding-right: 0git;
     align-content: center;
     color: #8D8D8D;
     font-family:  Arial, Helvetica, sans-serif;
