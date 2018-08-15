@@ -8,6 +8,8 @@ body {
     background: #EFEFEF;
 }
 
+/******* Header *******/
+
 .header-background {
     background-color: #414141;
     border-bottom: 10px solid transparent;
@@ -69,8 +71,6 @@ h4 {
     font-weight: lighter;
 }
 
-/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button*/
-
 .learn-btn {
     background: #4788C8;
     color: #FFFFFF;
@@ -89,7 +89,7 @@ h4 {
     color: #4788C8;
 }
 
-/*speech-bubble*/
+/******* Blue speech bubble *******/
 
 .speech-bubble {
     position: relative;
@@ -148,7 +148,7 @@ h4 {
     font-style: italic;
 }
 
-/* Content container */
+/******* Content *******/
 
 #content-wrapper {
     margin: 0 auto;
@@ -248,7 +248,7 @@ h4 {
     color: white;
 }
 
-/* Recent work section */
+/******* Recent work section *******/
 
 .recent-work-container {
     display: grid;
@@ -322,27 +322,9 @@ h4 {
     padding: 0.1rem 2rem;
 }
 
-/* make more a deviant crease line
-#recent-work-title{
-    border-bottom: 10px solid transparent;
-    border-image: url(/assets/Border-BG.jpg) 30 round;
-    text-align: center;
-    margin: 4em auto;
-    padding: 0;
-}
+/******* Testimonials & development *******/
 
-#recent-work-title span{
-    font-weight: lighter;
-    color: #3F3F3F;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    background: #EFEFEF;
-    padding: 0.1rem 2rem;
-    margin-top: -10rem;
-}
-*/
-
-/* Testimonials & development */
+/* Testimonial area */
 
 #Testimonials-development-container {
     display: grid;
@@ -444,7 +426,7 @@ h4 {
     padding: 1rem;
 }
 
-/* development area */
+/* Development area */
 
 #development-container {
     grid-column: 2/3;
@@ -483,7 +465,7 @@ h4 {
     background: #EFEFEF;
 }
 
-/* tab box */
+/* Tab box */
 
 #tabs {
     display: flex;
@@ -547,7 +529,7 @@ h4 {
     margin: 0;
 }
 
-/* Get in touch section */
+/******* Get in touch section *******/
 
 .get-in-touch-bubble-speech {
     position: relative;
@@ -607,7 +589,7 @@ h4 {
     margin-right: 2rem;
 }
 
-/* footer */
+/******* footer *******/
 
 .footer-background {
     background-color: #414141;
@@ -618,7 +600,6 @@ h4 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-    /* centering container*/
     width: 80%;
     margin: 0 auto;
     padding-top: 5rem;
