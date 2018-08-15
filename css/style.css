@@ -279,19 +279,21 @@ h4 {
 }
 
 .work1 img {
-    max-width: 100%;
-    min-width: 100%;
-    margin: 0px;
+    width: 100%;
+    display: block;
+    height: auto;
 }
 
 .work2 img {
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
+    display: block;
+    height: auto;
 }
 
 .work3 img {
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
+    display: block;
+    height: auto;
 }
 
 .blog-title {
