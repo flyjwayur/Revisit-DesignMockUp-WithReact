@@ -1,0 +1,58 @@
+/******* Blue speech bubble *******/
+
+.speech-bubble {
+  position: relative;
+  background: #4788C8;
+  margin: auto;
+  width: 80%;
+  padding: 0.3rem;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 0;
+  height: 0;
+  border: 40px solid transparent;
+  border-top-color: #4788C8;
+  border-left: 0;
+}
+
+.start-btn {
+  background: #E4E4EE;
+  color: #414141;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  bottom: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+
+.speech-bubble-text {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2rem;
+}
+
+.speech-bubble-text span {
+  color: white;
+  font-weight: 600;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}

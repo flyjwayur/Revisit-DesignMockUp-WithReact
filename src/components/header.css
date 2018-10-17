@@ -1,0 +1,80 @@
+/******* Header *******/
+
+.header-background {
+  background-color: #414141;
+  border-bottom: 10px solid transparent;
+  border-image: url(/assets/Border-BG.jpg) 30 round;
+}
+
+.header-container {
+  background-color: #414141;
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap*/
+  justify-content: center;
+  align-items: center;
+  /* centering container*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+.right-header {
+  padding: 0px;
+  align-self: center;
+}
+
+.left-header {
+  padding: 0px;
+}
+
+img {
+  width: 35vw;
+  height: 35vh;
+}
+
+.right-header p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 1px auto;
+  /*text-align: left;*/
+  font-style: italic;
+  letter-spacing: 0.5px;
+  transform: scaleY(1.2);
+}
+
+.right-header p span {
+  font-weight: lighter;
+  color: #B5B5B5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding-left: 0.3rem;
+  font-style: normal;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B5B5B5;
+  font-weight: lighter;
+}
+
+.learn-btn {
+  background: #4788C8;
+  color: #FFFFFF;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
+}
+
+.learn-btn:hover {
+  background: #FFFFFF;
+  color: #4788C8;
+}
