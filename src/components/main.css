@@ -1,0 +1,34 @@
+#content-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  background: #EFEFEF;
+}
+
+/* Recent work title */
+
+#recent-work-title {
+  background-image: url("../assets/Border-BG.jpg");
+  text-align: center;
+  margin: 4em auto;
+  padding: 0;
+}
+
+#recent-work-title span {
+  font-weight: lighter;
+  color: #3F3F3F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  background: #EFEFEF;
+  padding: 0.1rem 2rem;
+}
+
+/******* Testimonials & development *******/
+#Testimonials-development-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  background: #EFEFEF;
+  width: 100%;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}

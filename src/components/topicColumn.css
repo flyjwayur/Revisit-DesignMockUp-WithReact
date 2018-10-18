@@ -18,7 +18,7 @@
 
 /* effects after hovering the topic column */
 
-.topic-container div:hover {
+.topic-container-column:hover {
   background: #FFFFFF;
   box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
 }
@@ -35,11 +35,11 @@
   border-left: 0;
 }
 
-.topic-container div:hover .read-btn {
+.topic-container-column:hover .read-btn {
   visibility: hidden;
 }
 
-.topic-container div:hover .circle-bg-for-icon {
+.topic-container-column:hover .circle-bg-for-icon {
   background: #4788C8;
   border-radius: 50%;
   width: 5rem;
@@ -61,6 +61,7 @@
 
 .topic-title span {
   font-weight: normal;
+  margin-left: 0.5rem;
 }
 
 .read-btn {
@@ -78,12 +79,8 @@
   background: #4F4D4E;
   border-radius: 50%;
   width: 5rem;
-  height: 5rem;
-  margin: auto;
-}
-
-.fas {
-  font-size: 2rem;
-  padding: 0.3rem;
+  height: 3rem;
+  font-size: 3rem;
+  padding: 1rem;
   color: white;
 }

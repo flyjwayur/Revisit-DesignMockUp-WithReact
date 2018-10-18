@@ -1,26 +1,22 @@
 import React from "react";
 import './topicColumn.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import TopicButton from './TopicButton.js'
 
-function TopicColumn() {
+function TopicColumn(props) {
   return (
     <div className="topic-container-column">
-      <div className="circle-bg-for-icon">
-        <i className="fas fa-mobile-alt" />
-      </div>
+            <FontAwesomeIcon className="circle-bg-for-icon" icon={props.icon} />
       <div className="topic-title">
-        Superbly
-        <span>responsive</span>
+        {props.hightLightTitle}
+        <span>{props.normalTitle}</span>
       </div>
       <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim
-          ultrices hendrerit. Nulla cursus, nisi consectetur gravida varius, sem
-          ex placerat augue, sed ullamcorper dolor arcu varius tellus.
+          {props.description}
         </p>
       </div>
-      <button className="read-btn" autoFocus={true}>
-        Read more
-      </button>
+      <TopicButton buttonText="Read more"/>
     </div>
   );
 }

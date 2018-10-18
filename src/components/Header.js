@@ -10,7 +10,7 @@ function Header() {
         <div className="header-container" id="top">
           <div className="left-header">
             <figure>
-              <img src={headerImage} alt="computer-Header" />
+              <img id="computerHeader" src={headerImage} alt="computer-Header" />
             </figure>
           </div>
           <div className="right-header">

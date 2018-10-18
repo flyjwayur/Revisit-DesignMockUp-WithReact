@@ -3,7 +3,7 @@
 .header-background {
   background-color: #414141;
   border-bottom: 10px solid transparent;
-  border-image: url(/assets/Border-BG.jpg) 30 round;
+  border-image: url(../assets/Border-BG.jpg) 30 round;
 }
 
 .header-container {
@@ -19,17 +19,16 @@
 }
 
 .right-header {
-  padding: 0px;
   align-self: center;
+  flex: 1;
 }
 
 .left-header {
-  padding: 0px;
+  flex: 1;
 }
 
-img {
-  width: 35vw;
-  height: 35vh;
+#computerHeader {
+  width: 35em;
 }
 
 .right-header p {
@@ -59,11 +58,13 @@ h4 {
   font-family: Arial, Helvetica, sans-serif;
   color: #B5B5B5;
   font-weight: lighter;
+  margin : 1rem auto;
 }
 
 .learn-btn {
   background: #4788C8;
   color: #FFFFFF;
+  margin : 1rem auto;
   padding: 1rem 2rem;
   font-size: 1rem;
   text-align: center;

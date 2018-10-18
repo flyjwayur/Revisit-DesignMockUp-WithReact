@@ -1,0 +1,102 @@
+/* Development area */
+
+#development-container {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 2fr;
+  grid-gap: 1.0rem;
+  background: #EFEFEF;
+  margin-left: 0.5rem;
+}
+
+#development-title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-image: url("../assets/Border-BG.jpg");
+  background-repeat: repeat;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0;
+  height: 2rem;
+}
+
+#development-title span {
+  font-weight: lighter;
+  color: #3F3F3F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  background: #EFEFEF;
+  padding: 0.5rem 2rem;
+}
+
+#design-production {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background: #EFEFEF;
+}
+
+/* Tab box */
+
+#tabs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+#tabs label {
+  background: #E4E4EE;
+  padding: 1em;
+  cursor: pointer;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
+}
+
+.tab-content {
+  width: 100%;
+  padding: 1em;
+  order: 1;
+  box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
+  background: #fff;
+}
+
+.tab-content button {
+  background: #4788C8;
+  color: #FFFFFF;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+#tabs input[type='radio'],
+.tab-content {
+  display: none;
+}
+
+#tabs input[type='radio']:checked+label {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
+}
+
+#tabs input[type='radio']:checked+label+.tab-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.tab-content-title {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1rem;
+  font-weight: bold;
+  margin: 0;
+}

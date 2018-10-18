@@ -1,0 +1,13 @@
+.speechBubble-btn {
+  background: #E4E4EE;
+  color: #414141;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  bottom: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}

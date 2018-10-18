@@ -5,7 +5,7 @@
   background: #4788C8;
   margin: auto;
   width: 80%;
-  padding: 0.3rem;
+  padding: 0.4rem;
   overflow-wrap: break-word;
   display: flex;
   flex-wrap: wrap;
@@ -24,20 +24,6 @@
   border-left: 0;
 }
 
-.start-btn {
-  background: #E4E4EE;
-  color: #414141;
-  padding: 1rem 1.5rem;
-  font-size: 1rem;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-  bottom: 0.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-right: 2rem;
-}
-
 .speech-bubble-text {
   color: white;
   font-size: 1.3rem;
@@ -45,6 +31,7 @@
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 2rem;
+  margin-top : 1rem;
 }
 
 .speech-bubble-text span {

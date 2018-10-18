@@ -1,5 +1,6 @@
 import React from "react";
 import './banner.css'; 
+import BannerButton from './BannerButton.js'
 
 function Banner(props) {
 
@@ -10,9 +11,7 @@ function Banner(props) {
         <span>{props.highlight}</span> 
         {props.endText}
       </p>
-      <button className="start-btn" autoFocus={true}>
-        {props.buttonText}
-      </button>
+      <BannerButton buttonText={props.buttonText}/>
     </div>
   );
 }
