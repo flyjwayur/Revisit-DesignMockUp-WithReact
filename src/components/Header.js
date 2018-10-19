@@ -1,6 +1,7 @@
 import React from "react";
 import headerImage from "../assets/Header-img.png";
-import Banner from "./Banner.js";
+import Banner from "./Banner";
+import BannerButton from './BannerButton';
 import "./header.css";
 
 function Header() {
@@ -32,7 +33,9 @@ function Header() {
             </button>
           </div>
         </div>
-        <Banner introText="Create a" highlight="powerful" endText="solution now!" buttonText="Get started"/>
+        <Banner introText="Create a" highlight="powerful" endText="solution now!">
+          <BannerButton buttonText="Get started"/>
+        </Banner>
       </div>
     </header>
   );

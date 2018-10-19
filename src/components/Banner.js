@@ -1,9 +1,8 @@
 import React from "react";
 import './banner.css'; 
-import BannerButton from './BannerButton.js'
 
 function Banner(props) {
-
+ 
   return (
     <div className="speech-bubble">
       <p className="speech-bubble-text">
@@ -11,7 +10,7 @@ function Banner(props) {
         <span>{props.highlight}</span> 
         {props.endText}
       </p>
-      <BannerButton buttonText={props.buttonText}/>
+      {props.children}
     </div>
   );
 }
