@@ -4,28 +4,6 @@
   background: #EFEFEF;
 }
 
-/* Recent work title */
-
-#recent-work-title {
-  margin: 4em auto;
-  border-bottom: 10px solid transparent;
-  border-image: url(../assets/Border-BG.jpg) 30 round;
-  position: relative;
-}
-
-#recent-work-title span {
-  font-weight: lighter;
-  color: #3F3F3F;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  background: #EFEFEF;
-  padding: 0.1rem 2rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 /******* Testimonials & development *******/
 #Testimonials-development-container {
   display: grid;

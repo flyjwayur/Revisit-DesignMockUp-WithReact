@@ -10,6 +10,7 @@ import {
 import RecentWork from "./RecentWork.js";
 import Testimonial from "./Testimonial.js";
 import Development from "./Development.js";
+import Title from "./Title"
 import "./main.css";
 
 //library.add(faMobileAlt, faLaptop, faDesktop, faRecycle);
@@ -49,9 +50,7 @@ function Main() {
         />
       </div>
       {/* Recent work  */}
-      <div id="recent-work-title">
-        <span>Recent work</span>
-      </div>
+      <Title cssName="titleStyle" titleText="Recent work"/>
       <div className="recent-work-container">
         <RecentWork
           cssName="work1"
