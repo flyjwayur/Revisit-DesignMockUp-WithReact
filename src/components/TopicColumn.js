@@ -1,14 +1,15 @@
 import React from "react";
 import './topicColumn.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import TopicButton from './TopicButton.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import TopicButton from './TopicButton.js';
 
 function TopicColumn(props) {
+  const { icon, hightLightTitle } = props;
   return (
     <div className="topic-container-column">
-            <FontAwesomeIcon className="circle-bg-for-icon" icon={props.icon} />
+      <FontAwesomeIcon className="circle-bg-for-icon" icon={icon} />
       <div className="topic-title">
-        {props.hightLightTitle}
+        {hightLightTitle}
         <span>{props.normalTitle}</span>
       </div>
       <div>

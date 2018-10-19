@@ -9,7 +9,7 @@ function Development() {
         </div>
         <div id="design-production">
             <section id="tabs" className="tab-box">
-                <input id="tab-1" type="radio" name="tabs" defaultChecked/>
+                <input id="tab-1" type="radio" name="tabs" defaultChecked />
                 <label htmlFor="tab-1">The Design</label>
                 <div className="tab-content">
                     <h3 className="tab-content-title">The Design</h3>
