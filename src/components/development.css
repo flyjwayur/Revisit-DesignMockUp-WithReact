@@ -14,12 +14,13 @@
 #development-title {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url("../assets/Border-BG.jpg");
-  background-repeat: repeat;
-  text-align: center;
-  margin-top: 1rem;
-  padding: 0;
-  height: 2rem;
+  margin: 1rem 0;
+  border-bottom: 10px solid transparent;
+  border-image: url(../assets/Border-BG.jpg) 30 round;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; 
 }
 
 #development-title span {
@@ -29,6 +30,7 @@
   font-size: 1.5rem;
   background: #EFEFEF;
   padding: 0.5rem 2rem;
+  transform: translateY(55%); 
 }
 
 #design-production {

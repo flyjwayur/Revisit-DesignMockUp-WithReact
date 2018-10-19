@@ -7,10 +7,10 @@
 /* Recent work title */
 
 #recent-work-title {
-  background-image: url("../assets/Border-BG.jpg");
-  text-align: center;
   margin: 4em auto;
-  padding: 0;
+  border-bottom: 10px solid transparent;
+  border-image: url(../assets/Border-BG.jpg) 30 round;
+  position: relative;
 }
 
 #recent-work-title span {
@@ -18,8 +18,12 @@
   color: #3F3F3F;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
+  line-height: 1.5rem;
   background: #EFEFEF;
   padding: 0.1rem 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /******* Testimonials & development *******/

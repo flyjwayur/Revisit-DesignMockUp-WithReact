@@ -24,10 +24,13 @@
 #testimonials-title {
   grid-column: 1/3;
   grid-row: 1/2;
-  background-image: url("../assets/Border-BG.jpg");
-  text-align: center;
   margin: 1rem 0;
-  padding: 0;
+  border-bottom: 10px solid transparent;
+  border-image: url(../assets/Border-BG.jpg) 30 round;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; 
 }
 
 #testimonials-title::after {
@@ -41,6 +44,7 @@
   font-size: 1.5rem;
   background: #EFEFEF;
   padding: 0.5rem 2rem;
+  transform: translateY(55%); 
 }
 
 #testimonials-content1 {
