@@ -8,12 +8,14 @@ import { faTwitterSquare,
         faInstagram,
         faGooglePlusSquare,
         faPinterestSquare } from "@fortawesome/free-brands-svg-icons";
-
+import BannerButton from './BannerButton';
 
 function Footer() {
   return (
     <footer>
-      <Banner introText="GET IN TOUCH WITH US" highlight="Now" buttonText="Contact Us"/>
+      <Banner introText="GET IN TOUCH WITH US" highlight="Now">
+      <BannerButton buttonText="Contact Us"/>
+      </Banner>
       <div className="footer-background">
         <div className="footer-container">
           <div className="aboutUs">
