@@ -52,3 +52,11 @@
 .blog-content {
   padding: 1rem;
 }
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+  /*** Entire layout with Grid ***/
+  .recent-work-container div {
+    margin-top : 3rem;
+  }
+}

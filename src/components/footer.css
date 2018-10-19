@@ -88,6 +88,7 @@
   grid-column: 1/5;
   grid-row: 2/3;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 10%;
@@ -116,4 +117,53 @@
 
 .fa-arrow-circle-up {
   color: #222222;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*** Entire layout with Grid ***/
+  .footer-container {
+    background-color: #414141;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-gap : 2rem;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+
+  .aboutUs {
+    grid-column: 1;
+    grid-row: 1/2;
+  }
+
+  .lastestTweets {
+    grid-column: 1;
+    grid-row: 2/3;
+  }
+
+  .lastestPosts {
+    grid-column: 1;
+    grid-row: 3/4;
+  }
+
+  .flickr {
+    grid-column: 1;
+    grid-row: 4/5;
+  }
+
+  .most-bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-text {
+    flex: 4;
+  }
+
+  .footer-icons {
+    flex: 2;
+    display: flex;
+  }
 }

@@ -1,7 +1,9 @@
 import React from "react";
 import './banner.css'; 
 
+
 function Banner(props) {
+  console.log(props.children);
  
   return (
     <div className="speech-bubble">
