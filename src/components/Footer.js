@@ -1,6 +1,13 @@
 import React from "react";
 import "./footer.css";
 import Banner from "./Banner.js";
+import SocialIcon from './SocialIcon';
+import { faTwitterSquare,
+        faFacebookSquare,
+        faVimeoSquare,
+        faInstagram,
+        faGooglePlusSquare,
+        faPinterestSquare } from "@fortawesome/free-brands-svg-icons";
 
 
 function Footer() {
@@ -72,24 +79,12 @@ function Footer() {
             Copyright @2003-2012 Ventus Ivc. All Rights Reserved.
           </div>
           <div className="footer-icons">
-            <i className="fab fa-twitter-square">
-              <span>Twitter</span>
-            </i>
-            <i className="fab fa-facebook-square">
-              <span>Facebook</span>
-            </i>
-            <i className="fab fa-vimeo-square">
-              <span>Vimeo</span>
-            </i>
-            <i className="fab fa-instagram">
-              <span>Instagram</span>
-            </i>
-            <i className="fab fa-google-plus-square">
-              <span>Google+</span>
-            </i>
-            <i className="fab fa-pinterest-square">
-              <span>Pinterest</span>
-            </i>
+          <SocialIcon icon={faTwitterSquare} iconName="Twitter"></SocialIcon>
+          <SocialIcon icon={faFacebookSquare} iconName="Facebook"></SocialIcon>
+          <SocialIcon icon={faVimeoSquare} iconName="Vimeo"></SocialIcon>
+          <SocialIcon icon={faInstagram} iconName="Instagram"></SocialIcon>
+          <SocialIcon icon={faGooglePlusSquare} iconName="Google+"></SocialIcon>
+          <SocialIcon icon={faPinterestSquare} iconName="Pinterest"></SocialIcon>
           </div>
         </div>
         <div className="footer-up">

@@ -105,6 +105,7 @@
 
 .footer-icons {
   flex: 2;
+  display: flex;
 }
 
 .footer-up {
@@ -115,42 +116,4 @@
 
 .fa-arrow-circle-up {
   color: #222222;
-}
-
-.footer-icons i {
-  font-size: 2rem;
-  padding: 0 0.5rem;
-  color: #222222;
-  position: relative;
-  display: initial;
-}
-
-.footer-icons i span {
-  position: absolute;
-  bottom: 3rem;
-  left: 1rem;
-  display: none;
-  /*visibility: hidden;*/
-}
-
-.footer-icons i:hover span {
-  color: #EFEFEF;
-  background: #4F4D4E;
-  display: block;
-  /*visibility: visible;*/
-  font-size: 1rem;
-  padding: 0.7rem;
-  border-radius: 10%;
-}
-
-.footer-icons i:hover span::after {
-  content: '';
-  position: absolute;
-  top: 90%;
-  left: 0%;
-  width: 0;
-  height: 0;
-  border: 20px solid transparent;
-  border-top-color: #4F4D4E;
-  border-left: 0;
 }

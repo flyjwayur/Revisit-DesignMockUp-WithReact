@@ -1,0 +1,49 @@
+.footer-icons .mediaIcons{
+  width: 3rem;
+  height: 3rem;
+  padding: 0 0.5rem;
+  position: relative;
+}
+
+.footer-icons .mediaIcons .iconSvg {
+  width: 100%;
+  height: 100%;
+  color: #222222;
+}
+
+.mediaIcons .iconSvg path {
+  fill: rgb(177, 176, 176);
+}
+
+.mediaIcons .iconSvg:hover path {
+  fill: #fff;
+}
+
+.footer-icons .mediaIcons .iconName {
+  display: none;
+}
+
+.footer-icons .mediaIcons:hover .iconName {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+  color: #EFEFEF;
+  background: #4F4D4E;
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.footer-icons .mediaIcons:hover .iconName::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #4F4D4E;
+  border-left: 0;
+}
