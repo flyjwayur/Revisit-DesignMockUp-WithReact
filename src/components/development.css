@@ -1,6 +1,6 @@
 /* Development area */
 
-#development-container {
+.developmentContainer {
   grid-column: 2/3;
   grid-row: 1/4;
   display: grid;
@@ -11,7 +11,7 @@
   margin-left: 0.5rem;
 }
 
-#development-title {
+.developmentTitle {
   grid-column: 1/2;
   grid-row: 1/2;
   margin: 1rem 0;
@@ -23,7 +23,7 @@
   justify-content: center; 
 }
 
-#development-title span {
+.developmentTitle span {
   font-weight: lighter;
   color: #3F3F3F;
   font-family: Arial, Helvetica, sans-serif;
@@ -33,22 +33,22 @@
   transform: translateY(55%); 
 }
 
-#design-production {
+.designProduction {
   grid-column: 1/2;
   grid-row: 2/3;
   background: #EFEFEF;
 }
 
 /* Tab box */
-
-#tabs {
+.tabs {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   margin-top: 1.5rem;
+  position: relative;
 }
 
-#tabs label {
+.tabLabel {
   background: #E4E4EE;
   padding: 1em;
   cursor: pointer;
@@ -57,48 +57,4 @@
   font-weight: bold;
   text-transform: uppercase;
   box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
-}
-
-.tab-content {
-  width: 100%;
-  padding: 1em;
-  order: 1;
-  box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
-  background: #fff;
-}
-
-.tab-content button {
-  background: #4788C8;
-  color: #FFFFFF;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  align-self: flex-end;
-}
-
-#tabs input[type='radio'],
-.tab-content {
-  display: none;
-}
-
-#tabs input[type='radio']:checked+label {
-  background: #fff;
-  border-bottom: 1px solid #fff;
-  box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
-}
-
-#tabs input[type='radio']:checked+label+.tab-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.tab-content-title {
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 1rem;
-  font-weight: bold;
-  margin: 0;
 }
