@@ -1,5 +1,7 @@
-# Design a Website Mockup with MTML & CSS 
+# Design a Website Mockup with React
 
-It's about designing a website mockup in HTML and CSS.
+First project with React.
+I revisited the previous design mockup with REACT this time.
+To improve from the previous project, I updated css.
 
-* Demo : https://designmockup1st.netlify.com/
+- Demo : https://designmockup1st.netlify.com/
